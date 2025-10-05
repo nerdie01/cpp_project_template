@@ -1,0 +1,6 @@
+# ninja log v6
+0	3	1755194270301936429	clean	744eefde53a5b0a1
+150	186	1759624254775683426	test_project	8414a3efdb6a181c
+1	150	1759624254626747611	CMakeFiles/test_project.dir/src/main.cpp.o	166c562585c6c0ab
+1	161	1755194536223798633	CMakeFiles/test_project.dir/src/unordered_array.cpp.o	9383aaa0b683ad7c
+1	19	1755194306635510649	CMakeFiles/test_project.dir/src/vec3.cpp.o	6700a4f30aa3f36e
