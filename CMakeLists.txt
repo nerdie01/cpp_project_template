@@ -1,18 +1,19 @@
 cmake_minimum_required(VERSION 3.16)
 project(TestProject VERSION 1.0 LANGUAGES C CXX)
-
-# cmake --build build && cmake build
+set(CMAKE_CXX_STANDARD 17)
 
 set(SOURCES
-    src/main.cpp
+    "src/main.cpp"
+    "src/fft.cpp"
 )
 
-add_executable(test_project ${SOURCES})
+set(LIBRARIES
+    "fftw3")
 
-target_include_directories(test_project
-    PRIVATE
-        ${PROJECT_SOURCE_DIR}/include)
+add_executable(TestProject ${SOURCES})
 
-target_link_directories(test_project
+target_include_directories(TestProject
     PRIVATE
-        ${PROJECT_SOURCE_DIR}/lib)
+        "${CMAKE_CURRENT_SOURCE_DIR}/include/")
+
+target_link_libraries(TestProject PRIVATE ${LIBRARIES})

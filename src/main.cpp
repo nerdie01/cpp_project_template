@@ -1,7 +1,9 @@
-#include <iostream>
-#include <ostream>
+#include <complex.h>
+#include <fftw3.h>
+#include "fft.h"
 
 
 int main(int args, char **argc) {
-    std::cout << "Hello World :3" << std::endl;
+    int N = 200;
+    fft(N);
 }

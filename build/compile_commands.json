@@ -1,8 +1,14 @@
 [
 {
   "directory": "/home/viyengar/Documents/Code/cpp_project_template/build",
-  "command": "/usr/bin/clang++ -I/home/viyengar/Documents/Code/cpp_project_template/include -g -o CMakeFiles/test_project.dir/src/main.cpp.o -c /home/viyengar/Documents/Code/cpp_project_template/src/main.cpp",
+  "command": "/usr/bin/clang++ -I/home/viyengar/Documents/Code/cpp_project_template/include -g -std=gnu++17 -o CMakeFiles/TestProject.dir/src/main.cpp.o -c /home/viyengar/Documents/Code/cpp_project_template/src/main.cpp",
   "file": "/home/viyengar/Documents/Code/cpp_project_template/src/main.cpp",
-  "output": "/home/viyengar/Documents/Code/cpp_project_template/build/CMakeFiles/test_project.dir/src/main.cpp.o"
+  "output": "/home/viyengar/Documents/Code/cpp_project_template/build/CMakeFiles/TestProject.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/viyengar/Documents/Code/cpp_project_template/build",
+  "command": "/usr/bin/clang++ -I/home/viyengar/Documents/Code/cpp_project_template/include -g -std=gnu++17 -o CMakeFiles/TestProject.dir/src/fft.cpp.o -c /home/viyengar/Documents/Code/cpp_project_template/src/fft.cpp",
+  "file": "/home/viyengar/Documents/Code/cpp_project_template/src/fft.cpp",
+  "output": "/home/viyengar/Documents/Code/cpp_project_template/build/CMakeFiles/TestProject.dir/src/fft.cpp.o"
 }
 ]
