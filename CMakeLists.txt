@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(test_project)
+project(TestProject VERSION 1.0 LANGUAGES C CXX)
 
 # cmake --build build && cmake build
 

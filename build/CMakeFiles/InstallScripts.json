@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/viyengar/Downloads/cpp/test_project/build/cmake_install.cmake"
+		"/home/viyengar/Documents/Code/cpp_project_template/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
